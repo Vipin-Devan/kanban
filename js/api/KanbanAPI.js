@@ -72,6 +72,7 @@ export default class KanbanAPI {
     save(data);
   }
 }
+
 function read() {
   const json = localStorage.getItem('kanban-data');
 
@@ -97,3 +98,4 @@ function read() {
 function save(data) {
   localStorage.setItem('kanban-data', JSON.stringify(data));
 }
+//
